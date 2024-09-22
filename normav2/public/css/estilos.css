@@ -1,0 +1,240 @@
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+    background-color: #F0F0F0;
+}
+.navbar-default .navbar-toggle
+{
+    background-color: #F0F0F0;
+    border-color:#F0F0F0;
+    border-radius: 5px;
+
+}
+.cont-abajo
+{
+    background-color: #F0F0F0;
+    
+}
+.tabla
+{
+	max-width: 1500px;
+}
+.tabla th
+{
+	background-color: #337ab7;
+	color: white;
+	text-align: center;
+}
+.tabla th a
+{
+	color: white;
+}
+
+.arriba
+{
+    background-color: #A00000;
+    border-color: #A00000;
+    height: 15px;
+    border-radius:5px 5px 0px 0px;
+    margin-bottom: 0px;
+
+}
+
+.centro
+{
+	background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    height: 100px;
+    border-radius:0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.abajo
+{
+
+    
+    background-color: #F0F0F0;
+    border-color: #F0F0F0;
+    border-radius:0px 0px 5px 5px;
+}
+
+.navbar
+{
+	min-height: 5px;
+	
+}
+
+#corto
+{
+    font-size: 9pt;
+}
+#manual
+{
+    background-color: #0000b2;
+}
+#encabezado
+{
+    height: 55px;
+    width: 225px;
+    padding-top: 5px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+    border-radius: 0px;
+    background-color: #D80000;
+    text-align: left;
+}
+.menu-boton
+{
+    background-color: #C80000; /* Green */
+    color: white;
+    width: 100%;
+    height: 85px;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 10px 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition: all 0.5s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.boton-atras
+{
+    background-color: #0000b2; /* Green */
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.boton-todos
+{
+    background-color: #0000b2; /* Green */
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.boton-todos:hover
+{
+  color:white;
+}
+.boton-atras:hover
+{
+  color: white;
+}
+
+
+.menu-boton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.menu-boton span:after {
+  content: '»';
+  font-size: 60px;
+  position: absolute;
+  margin-top: -20px;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.menu-boton:hover span {
+  padding-right: 35px;
+}
+
+.menu-boton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.menu-boton:hover
+{
+    color:white;
+}
+
+.col-peque
+{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.control-group h4
+{
+  font-weight: bold;
+}
+
+.datos-faltantes
+{
+    border-color: #FF0000;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.075), 0 0 8px rgba(255,0,0, .6);
+          box-shadow: inset 0 1px 1px rgba(255,255,255,.075), 0 0 8px rgba(255,0,0, .6);
+}
+.input-group
+{
+    z-index: 0;
+}
+
+div.avatar2 {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size:cover;
+  border: 3px solid #A00000;  
+}
+.card{
+-webkit-box-shadow: inset 0px 0px 6px 2px rgba(102,102,102,0.4);
+-moz-box-shadow: inset 0px 0px 6px 2px rgba(102,102,102,0.4);
+box-shadow: inset 0px 0px 6px 2px rgba(102,102,102,0.4);
+width:100%;
+margin: auto;
+}
+.avatar3 {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size:cover;
+    border: none;  
+}
+
+.card-white{
+-webkit-box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.34);
+-moz-box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.34);
+box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.34);
+width:100%;
+margin: auto;
+background-color:#f9f9f9;
+}
+
+.container2
+{
+  max-width: 800px;
+}

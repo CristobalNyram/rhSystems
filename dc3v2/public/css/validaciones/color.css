@@ -1,0 +1,10 @@
+.my-error-class {
+    color:red;
+}
+.my-valid-class {
+    color:black;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

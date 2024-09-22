@@ -1,0 +1,7 @@
+{
+  "require": {
+    "phpmailer/phpmailer": "*",
+    "itbz/fpdf": "dev-master",
+    "workerman/phpsocket.io-for-win": "^1.1"
+  }
+}

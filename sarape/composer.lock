@@ -1,0 +1,188 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7c84dda3f206804a56ce3616a005a1f7",
+    "packages": [
+        {
+            "name": "itbz/fpdf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mreg-archive/fpdf.git",
+                "reference": "19c128e6154dbf7ab6aff11b5b1e1c128ab2a1b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mreg-archive/fpdf/zipball/19c128e6154dbf7ab6aff11b5b1e1c128ab2a1b7",
+                "reference": "19c128e6154dbf7ab6aff11b5b1e1c128ab2a1b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "fpdf": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "no usage restriction"
+            ],
+            "description": "Unofficial PSR-0 compliant version of the FPDF library",
+            "homepage": "http://www.fpdf.org/",
+            "abandoned": "setasign/fpdf",
+            "time": "2016-03-02T20:44:38+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v5.2.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "d0186171b28af4f06ac2ad8a84a8f3d6cbc3ba6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/d0186171b28af4f06ac2ad8a84a8f3d6cbc3ba6c",
+                "reference": "d0186171b28af4f06ac2ad8a84a8f3d6cbc3ba6c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "*",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "suggest": {
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class.phpmailer.php",
+                    "class.phpmaileroauth.php",
+                    "class.phpmaileroauthgoogle.php",
+                    "class.smtp.php",
+                    "class.pop3.php",
+                    "extras/EasyPeasyICS.php",
+                    "extras/ntlm_sasl_client.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2016-05-10T18:39:36+00:00"
+        },
+        {
+            "name": "workerman/phpsocket.io-for-win",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/phpsocket.io-for-win.git",
+                "reference": "8dbef93bda60e77384e58097ed8425828be38e0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/phpsocket.io-for-win/zipball/8dbef93bda60e77384e58097ed8425828be38e0b",
+                "reference": "8dbef93bda60e77384e58097ed8425828be38e0b",
+                "shasum": ""
+            },
+            "require": {
+                "workerman/workerman-for-win": ">=3.1.8"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PHPSocketIO\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "Socket.io"
+            ],
+            "time": "2017-10-09T03:07:44+00:00"
+        },
+        {
+            "name": "workerman/workerman-for-win",
+            "version": "v3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/workerman-for-win.git",
+                "reference": "cbaae3193e4567fd9cfc8099931c63d9b12174ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/workerman-for-win/zipball/cbaae3193e4567fd9cfc8099931c63d9b12174ee",
+                "reference": "cbaae3193e4567fd9cfc8099931c63d9b12174ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2017-08-28T10:05:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "itbz/fpdf": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

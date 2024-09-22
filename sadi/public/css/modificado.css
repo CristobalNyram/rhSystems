@@ -1,0 +1,111 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)@charset "utf-8";
+/* CSS Document */
+
+.login-back{
+height: 100vh; 
+background-image:url("../images/recursos/login.jpg");
+background-position: center center;
+background-size: cover;
+	background-repeat: no-repeat;}
+.logo-crm-login{
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.login-color{
+	background-color: #703184;   
+}
+.card-login{
+background-color: #703184;		
+}
+
+.h1-login{
+	font-size:45px;	
+	font-weight: 400;
+	color: white;
+}
+
+.form-control-login{
+	background-color: #642777;
+	border-radius: 40px;
+	border: solid white .10em;
+	
+}
+.form-control-login:focus{
+	background-color: #531D64;
+	color: aliceblue;
+}
+
+.form-control-login::placeholder { color:#A288AB ; 
+}
+.btn-login{
+	background-color: #55136A;
+	border-radius: 40px;
+	border: solid #55136A .10em;
+}
+
+.btn-login:hover{
+	background-color: #6B1387;
+	border-radius: 40px;
+	border: solid #55136A .10em;
+}
+
+.navbar-crm{
+	border-bottom: solid 1px #ABABAB ;
+	background-color: #C5C5C5 !important;
+}
+.navbar-custom-crm{
+	background-color:#fff !important;
+	border-bottom: solid thin #D5D5D5 !important;
+}
+
+.navigation-color{
+	color:#703184 !important;
+}
+
+.card-crm{
+	padding:15px 25px;
+	border-radius: 12px;
+}
+
+.header-title-crm{
+	font-size: 28px;
+}
+.header-title{
+	
+	border-bottom: none;
+	padding-top: 20px
+}
+
+.btn-link-crm{
+	color: #703184;
+	font-weight: 600;
+}
+.thead-light-crm{
+	color: #fff;
+    background-color: #703184;
+    border-color: #dee2e6;
+}
+.boton-plus{
+	margin-top: 18px;
+}
+.space-nav{
+	padding-right: -3px;
+	margin: 0px -5px;
+	font-size: 15px !important;
+}
+
+#topnav .navbar-toggle span {
+background-color: #703184 !important;
+}
+
+.swal2-container {
+	z-index: 10000 !important;
+  }
+
+@media screen and (min-width: 990px) and (max-width: 1090px){
+	.space-nav{font-size:12px !important;}
+}

@@ -1,0 +1,51 @@
+.navbar-custom-crm{
+    background-color:#topbar_background# !important;
+    border-bottom: solid #topbar_border_color# .3rem !important;
+
+}
+
+.thead-light-crm {
+    color: #fff;
+    background-color:#table_head_datatable#;
+    border-color: #dee2e6;
+}
+
+
+.btn-buscar {
+    background-color: #btn_confirmar_fondo#;
+    margin-top: -11px;
+    width: 100%;
+    border: solid 1px #2B53BD !important;
+}
+.btn-buscar:hover {
+    background-color: #btn_confirmar_fondo_hover#;
+    margin-top: -11px;
+    width: 100%;
+    border: solid 1px #2B53BD !important;
+}
+
+
+/* boton de cancelar */
+.btn-limpiar {
+    background-color: #btn_cancelar_fondo#;
+    margin-top: -11px;
+    width: 100%;
+    border: solid 1px #16345e;
+    color: white;
+}
+.btn-limpiar:hover {
+    background-color: #btn_cancelar_fondo_hover#;
+    margin-top: -11px;
+    width: 100%;
+    border: solid 1px #16345e;
+    color: white;
+}
+
+td a i.mdi {
+    color: #iconos_opciones#;
+}
+
+.content-page .content { 
+    background:#fondo_sistema_general#!important;
+}
+/* boton de cancelar fin */

@@ -1,0 +1,13 @@
+{% set siete = acceso.verificar(7,rol_id) %}
+{% set dieciseis = acceso.verificar(16,rol_id) %}
+{% set veinte = acceso.verificar(20,rol_id) %}
+{% set treintayuno = acceso.verificar(31,rol_id) %}
+{% set treintaydos = acceso.verificar(32,rol_id) %}
+{% set treintaytres = acceso.verificar(33,rol_id) %}
+{% set treintaynueve  = acceso.verificar(39,rol_id) %}
+{% set cuarentaytres  = acceso.verificar(43,rol_id) %}
+{% set cincuentayocho = 0 %}
+{% set cincuentaynueve  = acceso.verificar(59,rol_id) %}
+{% set sesentaycinco = 0 %}
+{% set sesentaynueve = 0 %}
+{% set ochentaycuatro  = acceso.verificar(84,rol_id) %}
